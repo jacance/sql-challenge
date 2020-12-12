@@ -1,4 +1,5 @@
-Employee Database: A Mystery in Two Parts
+# Employee Database: A Mystery in Two Parts
+
 
 Fictional corporation Pewlett Hackard requires research on its employees from the 1980s and 1990s. All that remain of the database of employees from that period are six CSV files.
 
@@ -7,6 +8,7 @@ Goal is to design tables to hold data in the CSVs, import the CSVs into a SQL da
 This project involved using available information to create a table schema for each of the six CSV files (specifying data types, primary keys, foreign keys, and other constraints).
 
 Each CSV file was then imported into the corresponding SQL table.
+
 
 
 Part I: Data Analysis
@@ -26,6 +28,7 @@ The complete database is queried to list the following:
 - All employees in the Sales and Development departments, including their employee number, last name, first name, and department name.
 
 - The frequency count of employee last names, i.e., how many employees share each last name (in descending order).
+
 
 
 
