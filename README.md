@@ -1,17 +1,18 @@
-# Employee Database: A Mystery in Two Parts
+# Employee Database
+
+Designed an Entity Relational Diagram of tables to hold employee data contained in six CSV files. Once the CSVs were imported into an SQL database, I queried the database to answer questions about employee data.
 
 
-Fictional corporation Pewlett Hackard requires research on its employees from the 1980s and 1990s. All that remain of the database of employees from that period are six CSV files.
+## Data Engineering
 
-Goal is to design tables to hold data in the CSVs, import the CSVs into a SQL database, and answer questions about the data.
+- Use information on hand to create a table schema for each of the six CSV files.
 
-This project involved using available information to create a table schema for each of the six CSV files (specifying data types, primary keys, foreign keys, and other constraints).
+- Specify data types, primary keys, foreign keys, and other constraints.
 
-Each CSV file was then imported into the corresponding SQL table.
+- Import each CSV file into corresponding SQL table.
 
 
-
-Part I: Data Analysis
+## Data Analysis
 
 The complete database is queried to list the following:
 
@@ -31,10 +32,9 @@ The complete database is queried to list the following:
 
 
 
+## Data Visualization
 
-Part II: Data Visualization
-
-Steps taken to visualize the data for Pewlett Hackard management:
+Steps taken to visualize the employee salary information:
 
 - Import the SQL database into Pandas.
 
