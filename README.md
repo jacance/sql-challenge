@@ -1,5 +1,7 @@
 # Employee Database
 
+![Alt text](images/sql.png?raw=true "Title")
+
 Designed an Entity Relational Diagram of tables to hold employee data contained in six CSV files. Once the CSVs were imported into an SQL database, I queried the database to answer questions about employee data.
 
 
