@@ -4,12 +4,14 @@
 
 ## Background
 
-Designed an Entity Relational Diagram of tables to hold employee data contained in six CSV files. Once the CSVs were imported into an SQL database, I queried the database to answer questions about employee data.
+Designed tables to hold employee data contained in six CSV files. Once the CSVs were imported into an SQL database, the database was queried to answer questions about employee data.
 
 
-## Data Engineering ##
+## Data Engineering
 
-- Use information on hand to create a table schema for each of the six CSV files.
+![Alt text](EmployeeSQL/ERD_employee_database.png?raw=true "Title2")
+
+- Inspect information to design Entity Relational Diagram and create a table schema for each of the six CSV files.
 
 - Specify data types, primary keys, foreign keys, and other constraints.
 
@@ -18,7 +20,7 @@ Designed an Entity Relational Diagram of tables to hold employee data contained 
 
 ## Data Analysis
 
-The complete database is queried to list the following:
+The complete database was queried to list the following:
 
 - Details of each employee: employee number, last name, first name, sex, and salary.
 
@@ -35,7 +37,6 @@ The complete database is queried to list the following:
 - The frequency count of employee last names, i.e., how many employees share each last name (in descending order).
 
 
-
 ## Data Visualization
 
 Steps taken to visualize the employee salary information:
@@ -46,3 +47,17 @@ Steps taken to visualize the employee salary information:
 
 - Create a bar chart of average salary by title.
 
+
+## Technologies
+
+- Postgres
+
+- ERD diagram created via https://app.quickdatabasediagrams.com/
+
+- Pandas
+
+- SQLAlchemy
+
+- Matplotlib
+
+- Jupyter Notebook
